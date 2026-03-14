@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 # الأفضل تحط التوكن في Secrets / Environment Variables
-TOKEN = os.getenv("MTQ4MTg4OTQ3OTAwNTMwNjkzMQ.GbEPRk.EATaww7FkubkEjMfQ6M4pjmUxuaEg5Cy1CT0Uk")
+TOKEN = os.getenv("MTQ4MTg4OTQ3OTAwNTMwNjkzMQ.GHNNwG.WXj5GLT2pQWJkeMCA6p8A2LbvGGll9my0IBa3A")
 
 if not TOKEN:
     raise RuntimeError("ما لقيت TOKEN. أضفه في Replit Secrets باسم TOKEN")
